@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    height: auto;
+    width: 550px;
+    background: #912411;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.container h2{
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 0 20px;
+}
+.container p{
+    font-size: 25px;
+    text-align: center;
+    font-family: Agbalumo, sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 20px;
+}
+.container h3{
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+    margin: 0 15px;
+    text-transform: capitalize;
+}
+.container img{
+    width: 20px;
+}
+hr{
+    margin: 10px 10px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.icons img{
+    margin: 0 10px;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 400px;
+    }
+    .container h2{
+        font-size: 30px;
+    }
+    .container p{
+        font-size: 20px;
+    }
+    .container h3{
+        font-size: 15px;
+    }
+    .container h2{
+        font-size: 30px;
+    }
+    .container p{
+        font-size: 20px;
+    }
+    .container h3{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 450px){
+    .container{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 300px){
+    .container{
+        width: 250px;
+    }
+    .container h2{
+        font-size: 30px;
+    }
+    .container p{
+        font-size: 20px;
+    }
+    .container h3{
+        font-size: 15px;
+    }
+}
